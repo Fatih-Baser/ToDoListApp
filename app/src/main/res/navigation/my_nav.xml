@@ -53,7 +53,7 @@
             app:popUpToInclusive="true" />
         <argument
             android:name="currentItem"
-            app:argType="com.fatihbasertr.todolistapp.models.ToDoData" />
+            app:argType="com.fatihbasertr.todolistapp.models.ToDoListDataModel" />
     </fragment>
 </navigation>
 
