@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="24dp"
+        android:background="#030304"
         tools:context=".UpdateFragment">
 
         <EditText
@@ -23,7 +24,9 @@
             android:ems="10"
             android:hint="@string/title"
             android:inputType="textPersonName"
+            android:textColor="@color/white"
             android:paddingStart="24dp"
+            android:textColorHint="@color/white"
             android:paddingEnd="24dp"
             android:text="@{args.currentItem.title}"
             app:layout_constraintEnd_toEndOf="parent"
@@ -51,10 +54,12 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"
+            android:textColor="@color/white"
             android:background="@drawable/custom_input"
             android:ems="10"
             android:gravity="top|start"
             android:hint="@string/description"
+            android:textColorHint="@color/white"
             android:inputType="textMultiLine"
             android:paddingStart="24dp"
             android:paddingTop="16dp"
